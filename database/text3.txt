@@ -1,5 +1,0 @@
-<!-- Termina base de datos -->
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
