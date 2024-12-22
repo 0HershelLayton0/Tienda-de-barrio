@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TuTiendadeBarrio</title>
+</head>
+<body>
+    <button class="buttonclass" onclick="openSidebar()">Abre nuestro menú</button>
+    <img id="ampliada" class="campliada" src="" onclick="quitar()">
+    <div class="sidebar">
+        <img src="fondo.jpg" width="80%">
+        <ul>
+            <li><a href="#subpagina1">Subpagina 1</a></li>
+            <li><a href="#subpagina2">Subpagina 2</a></li>
+            <li><a href="#subpagina3">Subpagina 3</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+<!-- empiza base de datos -->
+
