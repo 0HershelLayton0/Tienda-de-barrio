@@ -41,7 +41,7 @@ def ver_subseccion(subseccion):
         with col:
             # Recortar la imagen para que sea cuadrada
             img_cuadrada = recortar_cuadrado(foto)
-            st.image(img_cuadrada, caption=diccionario[os.path.basename(foto)], use_column_width=True)
+            st.image(img_cuadrada, caption=diccionario[os.path.basename(foto)] if os.path.basename(foto) in diccionario else 'Error en base de datos.', use_column_width=True)
             
 
 def mi_sidebar():
