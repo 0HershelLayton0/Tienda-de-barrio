@@ -1,2 +1,2 @@
 streamlit>=1.10.0
-PIL>=10.0.0
+Pillow>=10.0.0
